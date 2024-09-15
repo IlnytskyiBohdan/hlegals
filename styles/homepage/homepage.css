@@ -539,23 +539,4 @@ footer .footer .lc .map p {
 }
 .gradient-bg {
   background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
-}
-.gradient-bg header .mobile-burger {
-  position: absolute;
-  left: 0;
-  right: 0;
-  width: 100%;
-  z-index: 1;
-}
-.gradient-bg header .mobile-burger .language-number {
-  background: rgba(245, 245, 250, 0.2);
-}
-.gradient-bg header .mobile-burger .language-number a {
-  color: rgb(255, 255, 255);
-}
-.gradient-bg header .mobile-burger .container .header .burger-container .burger {
-  color: rgb(255, 255, 255);
-}
-.gradient-bg header .mobile-burger .container .header .logo-header:after {
-  content: "";
 }/*# sourceMappingURL=homepage.css.map */
