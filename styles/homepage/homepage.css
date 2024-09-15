@@ -584,30 +584,4 @@ footer .footer .lc .map p {
   top: 50%;
   transform: translateY(-50%);
   z-index: 1;
-}
-
-#v-pills-tab {
-  padding-right: 60px;
-  border-right: 4px solid rgba(255, 255, 255, 0.3);
-}
-
-#v-pills-home-tab,
-#v-pills-profile-tab,
-#v-pills-disabled-tab,
-#v-pills-messages-tab {
-  font-family: "Montserrat", sans-serif;
-  color: rgb(179, 179, 186);
-  background: none;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 46.32px;
-  text-align: right;
-  width: 400px;
-  padding: 15px 0 15px;
-}
-#v-pills-home-tab.active,
-#v-pills-profile-tab.active,
-#v-pills-disabled-tab.active,
-#v-pills-messages-tab.active {
-  color: rgb(240, 20, 90);
 }/*# sourceMappingURL=homepage.css.map */
