@@ -1,0 +1,1 @@
+function toggleMenu(){var t=document.getElementById("menu"),e=document.getElementById("overlay");t.classList.toggle("active"),e.classList.toggle("active")}function setActiveLink(){var t=document.querySelectorAll(".nav-link");let e=window.location.pathname;t.forEach(t=>{t.getAttribute("href")===e.split("/").pop()&&t.classList.add("active")})}window.onload=setActiveLink;

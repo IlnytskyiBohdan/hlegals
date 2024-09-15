@@ -1,0 +1,1 @@
+function formSubmit(e){e.preventDefault(),console.log(e,"event");var t=e.target[0].value,r=e.target[1].value,u=e.target[2].value,e=e.target[3].value,a=document.querySelector(".result");a.innerHTML=`Your name: ${t},<br/> Your message: ${r}, <br/> Your phone: ${u}, <br/> Your email: `+e,a.style.display="none"}document.addEventListener("submit",formSubmit);
