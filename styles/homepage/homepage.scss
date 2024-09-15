@@ -1,11 +1,23 @@
 @import "../base";
- 
+
+:root {
+  a {
+    text-decoration: none;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h3 .caps{
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+}
 
 // header
 
 .gradient-bg {
-    background:$Gradient-Supersoft;
-
+  background: $Gradient-Supersoft;
 
   header {
     .mobile-burger {
@@ -36,6 +48,8 @@
       }
     }
   }
+
+
 
   .section-1 {
     min-height: 100vh;
@@ -111,6 +125,47 @@
     font-size: 19px;
     font-weight: 400;
     line-height: 30px;
+  }
+}
+
+// @media (min-width: 768px)
+
+@media (min-width: 768px) {
+  header {
+    .desktop {
+      a {
+        color: $Basic-White;
+        text-decoration: none;
+      }
+      .flex {
+        .rc {
+          .conct {
+            p {
+              color: $Basic-White;
+            }
+            .language {
+              a {
+                color: $Basic-White;
+                text-decoration: none;
+              }
+            }
+            .fb_header {
+              a {
+                color: $Basic-White;
+              }
+              img,
+              svg {
+                vertical-align: inherit;
+              }
+            }
+            p {
+              margin-top: 0;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
   }
 }
 

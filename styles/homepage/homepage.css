@@ -632,6 +632,17 @@ footer .footer .lc .map p {
   line-height: 30px;
 }
 
+@media (min-width: 768px) {
+  header .desktop a {
+    color: rgb(255, 255, 255);
+  }
+  header .desktop .flex .rc .conct p {
+    color: rgb(255, 255, 255);
+  }
+  header .desktop .flex .rc .conct .language a {
+    color: rgb(255, 255, 255);
+  }
+}
 @media (min-width: 1024px) {
   .desktop .flex .logo-header:after {
     content: "";
