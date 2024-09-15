@@ -1,2 +1,36 @@
 @import "../base";
 
+.gradient-bg{
+    background: $Gradient-Supersoft;
+
+    header {
+        .mobile-burger {
+          position: absolute;
+          left: 0;
+          right: 0;
+          width: 100%;
+          z-index: 1;
+          .language-number {
+            background: rgba(245, 245, 250, 0.2);
+            a {
+              color: $Basic-White;
+            }
+          }
+          .container {
+            .header {
+              .burger-container {
+                .burger {
+                  color: $Basic-White;
+                }
+              }
+              .logo-header {
+                &:after {
+                  content: "";
+                }
+              }
+            }
+          }
+        }
+    }
+
+}
