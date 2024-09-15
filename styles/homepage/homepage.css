@@ -536,4 +536,7 @@ footer .footer .lc .map p {
   .container {
     max-width: 1720px;
   }
+}
+.gradient-bg {
+  background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643e72 87.46%);
 }/*# sourceMappingURL=homepage.css.map */
