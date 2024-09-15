@@ -586,16 +586,14 @@ footer .footer .lc .map p {
   transform: translateY(-50%);
   z-index: 1;
 }
-
-#v-pills-tab {
+.gradient-bg #v-pills-tab {
   padding-right: 60px;
   border-right: 4px solid rgba(255, 255, 255, 0.3);
 }
-
-#v-pills-home-tab,
-#v-pills-profile-tab,
-#v-pills-disabled-tab,
-#v-pills-messages-tab {
+.gradient-bg #v-pills-home-tab,
+.gradient-bg #v-pills-profile-tab,
+.gradient-bg #v-pills-disabled-tab,
+.gradient-bg #v-pills-messages-tab {
   font-family: "Montserrat", sans-serif;
   color: rgb(179, 179, 186);
   background: none;
@@ -606,18 +604,17 @@ footer .footer .lc .map p {
   width: 400px;
   padding: 15px 0 15px;
 }
-#v-pills-home-tab.active,
-#v-pills-profile-tab.active,
-#v-pills-disabled-tab.active,
-#v-pills-messages-tab.active {
+.gradient-bg #v-pills-home-tab.active,
+.gradient-bg #v-pills-profile-tab.active,
+.gradient-bg #v-pills-disabled-tab.active,
+.gradient-bg #v-pills-messages-tab.active {
   color: rgb(240, 20, 90);
 }
-
-#v-pills-tabContent {
+.gradient-bg #v-pills-tabContent {
   padding: 43px 0 0 43px;
   width: 100%;
 }
-#v-pills-tabContent h2 {
+.gradient-bg #v-pills-tabContent h2 {
   font-family: "Montserrat", sans-serif;
   color: rgb(255, 255, 255);
   padding-bottom: 23px;
@@ -625,7 +622,7 @@ footer .footer .lc .map p {
   font-weight: 700;
   line-height: 36.57px;
 }
-#v-pills-tabContent p {
+.gradient-bg #v-pills-tabContent p {
   color: rgb(255, 255, 255);
   font-family: Montserrat;
   font-size: 19px;
