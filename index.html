@@ -13,269 +13,122 @@
     <title>Hlegal</title>
   </head>
   <body>
-    <section class="bg">
-        <header>
-        <div class="mobile-burger">
-          <div class="language-number">
-            <div class="flex">
-              <div class="language">
-                <a href="#">ук</a>
-                <a href="#">ру</a>
-                <a class="active" href="#">en</a>
-              </div>
-              <a class="tell" href="tel:0800 211 927">0800 211 927</a>
-            </div>
-          </div>
-
-          <div class="container">
-            <div class="header">
-              <a href="./index.html" class="logo-header">
-                <svg width="70" height="33">
-                  <use href="./sprite.svg#logo-header-mobile-home" />
-                </svg>
-              </a>
-
-              <div class="burger-container">
-                <div class="burger" onclick="toggleMenu()">&#9776;</div>
-
-                <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
-              </div>
-            </div>
-
-            <div class="menu" id="menu">
-              <div class="close-btn" onclick="toggleMenu()">&times;</div>
-              <ul>
-                <li>
-                  <a href="./pages/about.html" class="nav-link">about us</a>
-                </li>
-                <li>
-                  <a href="./pages/services.html" class="nav-link">services</a>
-                </li>
-                <li><a href="./pages/team.html" class="nav-link">team</a></li>
-                <li>
-                  <a href="./pages/publications.html" class="nav-link"
-                    >publications</a
-                  >
-                </li>
-                <li>
-                  <a href="./pages/contact.html" class="nav-link">contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="desktop">
-          <div class="container">
-            <div class="flex">
-              <a href="./index.html" class="logo-header">
-                <svg width="130" height="60">
-                  <use href="./sprite.svg#logo-header-desktop-home" />
-                </svg>
-              </a>
-
-              <div class="rc">
-                <div class="conct">
-                  <div class="flex conct">
-                    <div class="language">
-                      <a href="#">ук</a>
-                      <a href="#">ру</a>
-                      <a class="active" href="#">en</a>
-                    </div>
-
-                    <span class="dot"></span>
-                    <p>Kyiv, Mechnikova str, 14/1</p>
-                    <span class="dot"></span>
-                    <a class="tell" href="tel:0800 211 927">0800 211 927</a>
-                    <span class="dot"></span>
-                    <div class="fb_header">
-                      <a href="#">
-                        <svg width="24" height="24">
-                          <use href="./sprite.svg#fb_header" />
-                        </svg>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="pages">
-                  <nav>
-                    <ul class="flex">
-                      <li>
-                        <a href="./pages/about.html" class="nav-link"
-                          >about us</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./pages/services.html" class="nav-link"
-                          >services</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./pages/team.html" class="nav-link">team</a>
-                      </li>
-                      <li>
-                        <a href="./pages/publications.html" class="nav-link"
-                          >publications</a
-                        >
-                      </li>
-                      <li>
-                        <a href="./pages/contact.html" class="nav-link"
-                          >contact</a
-                        >
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <div class="section-1">
-        <div class="container">
+    <header>
+      <div class="mobile-burger">
+        <div class="language-number">
           <div class="flex">
-            <svg width="873" height="1000" class="h-logo">
-              <use href="./sprite.svg#h-logo" />
-            </svg>
-            <h2>you legal solutions provider</h2>
-            <a href="#section-2">
-              <svg width="42" height="42" class="button-scroll">
-                <use href="./sprite.svg#button-scroll" />
+            <div class="language">
+              <a href="#">ук</a>
+              <a href="#">ру</a>
+              <a class="active" href="#">en</a>
+            </div>
+            <a class="tell" href="tel:0800 211 927">0800 211 927</a>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="header">
+            <a href="./index.html" class="logo-header">
+              <svg width="70" height="33">
+                <use href="./sprite.svg#logo-header-mobile-home" />
               </svg>
             </a>
+
+            <div class="burger-container">
+              <div class="burger" onclick="toggleMenu()">&#9776;</div>
+
+              <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+            </div>
+          </div>
+
+          <div class="menu" id="menu">
+            <div class="close-btn" onclick="toggleMenu()">&times;</div>
+            <ul>
+              <li>
+                <a href="./pages/about.html" class="nav-link">about us</a>
+              </li>
+              <li>
+                <a href="./pages/services.html" class="nav-link">services</a>
+              </li>
+              <li><a href="./pages/team.html" class="nav-link">team</a></li>
+              <li>
+                <a href="./pages/publications.html" class="nav-link"
+                  >publications</a
+                >
+              </li>
+              <li>
+                <a href="./pages/contact.html" class="nav-link">contact</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <div id="section-2">
-        <!-- desktop -->
 
+      <div class="desktop">
         <div class="container">
-          <div class="d-flex align-items-start" id="display-bloc">
-            <div
-              class="nav flex-column nav-pills me-3"
-              id="v-pills-tab"
-              role="tablist"
-              aria-orientation="vertical"
-            >
-              <button
-                class="nav-link active"
-                id="v-pills-home-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#v-pills-home"
-                type="button"
-                role="tab"
-                aria-controls="v-pills-home"
-                aria-selected="true"
-              >
-                Consistent
-              </button>
-              <button
-                class="nav-link"
-                id="v-pills-profile-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#v-pills-profile"
-                type="button"
-                role="tab"
-                aria-controls="v-pills-profile"
-                aria-selected="false"
-              >
-                Customer oriented
-              </button>
-              <button
-                class="nav-link"
-                id="v-pills-disabled-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#v-pills-home"
-                type="button"
-                role="tab"
-                aria-controls="v-pills-home"
-                aria-selected="true"
-              >
-                Innovative
-              </button>
-              <button
-                class="nav-link"
-                id="v-pills-messages-tab"
-                data-bs-toggle="pill"
-                data-bs-target="#v-pills-messages"
-                type="button"
-                role="tab"
-                aria-controls="v-pills-messages"
-                aria-selected="false"
-              >
-                Business oriented
-              </button>
-            </div>
+          <div class="flex">
+            <a href="./index.html" class="logo-header">
+              <svg width="130" height="60">
+                <use href="./sprite.svg#logo-header-desktop-home" />
+              </svg>
+            </a>
 
-            <div class="tab-content" id="v-pills-tabContent">
-              <div
-                class="tab-pane fade show active"
-                id="v-pills-home"
-                role="tabpanel"
-                aria-labelledby="v-pills-home-tab"
-                tabindex="0"
-              >
-                <h2>We turn the idea of legal services</h2>
-                <p>
-                  Consolidating many years of experience and practice, the
-                  company's lawyers accompany complex projects and achieve a
-                  number of important decisions for the industry. Many of them
-                  form the practice of applying the law of the sea in Ukraine.
-                </p>
+            <div class="rc">
+              <div class="conct">
+                <div class="flex conct">
+                  <div class="language">
+                    <a href="#">ук</a>
+                    <a href="#">ру</a>
+                    <a class="active" href="#">en</a>
+                  </div>
+
+                  <span class="dot"></span>
+                  <p>Kyiv, Mechnikova str, 14/1</p>
+                  <span class="dot"></span>
+                  <a class="tell" href="tel:0800 211 927">0800 211 927</a>
+                  <span class="dot"></span>
+                  <div class="fb_header">
+                    <a href="#">
+                      <svg width="24" height="24">
+                        <use href="./sprite.svg#fb_header" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
               </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-profile"
-                role="tabpanel"
-                aria-labelledby="v-pills-profile-tab"
-                tabindex="0"
-              >
-                <h2>IT and e-commerce</h2>
-                <p>
-                  An endless stream of contracts, tax issues, labor relations,
-                  corporate papers - legal work distracts you from doing
-                  business. But there is not much work to do to hire an in-house
-                  lawyer.
-                </p>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-disabled"
-                role="tabpanel"
-                aria-labelledby="v-pills-disabled-tab"
-                tabindex="0"
-              >
-                <h2>We turn the idea of legal services</h2>
-                <p>
-                  Consolidating many years of experience and practice, the
-                  company's lawyers accompany complex projects and achieve a
-                  number of important decisions for the industry. Many of them
-                  form the practice of applying the law of the sea in Ukraine.
-                </p>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-messages"
-                role="tabpanel"
-                aria-labelledby="v-pills-messages-tab"
-                tabindex="0"
-              >
-                <h2>IT and e-commerce</h2>
-                <p>
-                  An endless stream of contracts, tax issues, labor relations,
-                  corporate papers - legal work distracts you from doing
-                  business. But there is not much work to do to hire an in-house
-                  lawyer.
-                </p>
+
+              <div class="pages">
+                <nav>
+                  <ul class="flex">
+                    <li>
+                      <a href="./pages/about.html" class="nav-link">about us</a>
+                    </li>
+                    <li>
+                      <a href="./pages/services.html" class="nav-link"
+                        >services</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./pages/team.html" class="nav-link">team</a>
+                    </li>
+                    <li>
+                      <a href="./pages/publications.html" class="nav-link"
+                        >publications</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./pages/contact.html" class="nav-link"
+                        >contact</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
           </div>
         </div>
-      </div></section>
-      
-    
+      </div>
+    </header>
 
     <footer>
       <div class="container">
