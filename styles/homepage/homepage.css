@@ -639,9 +639,4 @@ footer .footer .lc .map p {
   .desktop .flex .logo-header:before {
     content: "";
   }
-}
-@media (min-width: 1440px) {
-  #section-2 .container {
-    padding: 60px 120px;
-  }
 }/*# sourceMappingURL=homepage.css.map */
