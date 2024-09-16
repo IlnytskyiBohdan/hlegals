@@ -99,6 +99,10 @@
   }
 }
 
+#section-2 .container {
+  padding: 0 30px;
+}
+
 #display-bloc {
   display: block !important;
 }
@@ -110,6 +114,9 @@
   display: flex !important;
   flex-wrap: nowrap;
   overflow-x: scroll;
+  scrollbar-width: none;
+  margin-right: 0 !important;
+  padding: 0 0 0 30px;
 }
 
 #v-pills-home-tab,
@@ -120,11 +127,11 @@
   font-family: "Montserrat", sans-serif;
   color: $Grey-Text;
   background: none;
-  font-size: 38px;
+  font-size: 30px;
   font-weight: 700;
   line-height: 46.32px;
   text-align: right;
-  padding: 15px 0 15px;
+  padding: 26px 0 24px;
 
   &.active {
     color: $Accent;
@@ -132,24 +139,19 @@
 }
 
 #v-pills-tabContent {
-  padding: 43px 0 0 43px;
-  width: 52%;
+  padding-top: 27px;
+  border-top: 4px solid rgba(255, 255, 255, 0.3);
 
   h2 {
-    font-family: "Montserrat", sans-serif;
     color: $Basic-White;
-    padding-bottom: 23px;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 36.57px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 26.57px;
   }
 
   p {
     color: $Basic-White;
-
-    font-family: Montserrat;
     font-size: 19px;
-    font-weight: 400;
     line-height: 30px;
   }
 }
@@ -233,9 +235,6 @@
     display: block !important;
     flex-wrap: nowrap;
     overflow-x: hidden;
-  }
-
-  #v-pills-tab {
     padding-right: 60px;
     border-right: 4px solid rgba(255, 255, 255, 0.3);
   }
