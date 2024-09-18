@@ -480,23 +480,23 @@ html {
   .team .team-content h1 {
     line-height: 46px;
   }
-  .brand{
-    .content{
+  .brand {
+    .content {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      .display-none{
+      .display-none {
         display: flex;
       }
     }
   }
-  
-  #publications{
-    h1{
+
+  #publications {
+    h1 {
       padding: 9px 0 30px;
     }
-    .publications{
+    .publications {
       display: grid;
-  grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(2, 1fr);
     }
     .content:nth-child(3) {
       grid-column: span 2;
