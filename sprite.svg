@@ -124,9 +124,11 @@
 <path d="M12 18L21 27L30 18" stroke="currentcolor" stroke-width="2"/>
 </symbol>
 
- <symbol id="services" width="12" height="13" viewBox="0 0 12 13" fill="none">
+
+<symbol id="arrow" width="13" height="13" viewBox="0 0 12 13" fill="none">
 <path d="M3.5 2L8 6.5L3.5 11" stroke="#24A3FF" stroke-width="2"/>
 </symbol>
+
 
 <symbol id="services-1" width="64" height="64" viewBox="0 0 64 64" fill="none">
 <path d="M23.7339 28.125C24.8379 28.125 25.7339 27.229 25.7339 26.125V18.325C25.7339 14.838 28.5709 12 32.0579 12C35.5449 12 38.3829 14.838 38.3829 18.325V26.125C38.3829 27.229 39.2779 28.125 40.3829 28.125C41.4869 28.125 42.3829 27.229 42.3829 26.125V18.325C42.3839 12.632 37.7519 8 32.0579 8C26.3659 8 21.7339 12.632 21.7339 18.325V26.125C21.7339 27.229 22.6299 28.125 23.7339 28.125Z" fill="url(#paint0_linear_22728_12613)"/>
