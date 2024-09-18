@@ -9,7 +9,9 @@
     margin-bottom: 0;
   }
   h1,
-  h3 {
+  h3,
+  h4,
+  h6 {
     margin-bottom: 0rem;
   }
 }
@@ -68,7 +70,7 @@ html {
   }
 
   .section-1 {
-    min-height: 100vh;
+    min-height: 89.5vh;
     padding-top: 94.5px;
     position: relative;
     padding-bottom: 60px;
@@ -176,11 +178,8 @@ html {
     display: grid;
     // grid-template-columns: repeat(2, 1fr);
     gap: 30px;
-    padding-bottom: 56px;
+    padding-bottom: 58px;
 
-    .services-block {
-      min-width: 300px;
-    }
     p {
       color: $Basic-White;
     }
@@ -200,7 +199,7 @@ html {
   }
 }
 
-.border1{
+.border1 {
   height: 10px;
   width: 100%;
   margin: 0 20px;
@@ -208,7 +207,7 @@ html {
   border-radius: 0 0 12px 12px;
 }
 
-.border2{
+.border2 {
   height: 10px;
   width: 100%;
   margin: 0 40px;
@@ -216,20 +215,178 @@ html {
   border-radius: 0 0 12px 12px;
 }
 
-.team{
-  .slider-item{
-img{
-  display: block; /* Изображение будет блочным элементом */
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%; /* Масштабируется по ширине контейнера */
-  height: auto;
-}
+.team {
+  padding: 30px 0 77px;
+  .team-content {
+    padding: 30px;
+    background: $Grey-Bg;
+    a {
+      align-items: center;
+      padding-bottom: 5px;
+    }
+    h1 {
+      line-height: 37px;
+      padding-bottom: 30px;
+    }
+    h4 {
+      color: $Grey-Text;
+      line-height: 20.5px;
+      padding-bottom: 6px;
+    }
+    p {
+      color: $Grey-Text;
+
+      font-size: 14px;
+
+      line-height: 22px;
+    }
   }
 }
 
+.slick-dots li button:before {
+  font-size: 19px;
+  line-height: 27px;
+  color: rgb(36, 163, 255) !important;
+}
 
+.slick-list {
+  border-radius: 12px;
+}
 
+.slick-dots {
+  bottom: -47px;
+}
+
+.slider-item {
+  img {
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.brand {
+  h3 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+  }
+  .block {
+    width: 100%;
+    height: 120px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: rgba(28, 66, 128, 1);
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .hillel {
+    background: rgba(28, 66, 128, 1);
+  }
+
+  .wannabiz {
+    background: rgba(20, 54, 70, 1);
+  }
+  .tapgerine {
+    background: linear-gradient(0deg, #f48b30, #f48b30),
+      linear-gradient(0deg, #f48b30, #f48b30);
+  }
+
+  .dlook {
+    background: rgba(158, 77, 195, 1);
+  }
+
+  .orangear {
+    background: rgba(253, 147, 57, 1);
+  }
+
+  .adtelligent {
+    background: rgba(226, 226, 228, 1);
+  }
+
+  .clickky {
+    background: rgba(199, 28, 54, 1);
+  }
+
+  .eco-leasing {
+    background: rgba(220, 243, 249, 1);
+  }
+
+  .ingratek {
+    background: rgba(234, 234, 234, 1);
+  }
+
+  .city-par {
+    background: rgba(40, 34, 64, 1);
+  }
+
+  .artprint {
+    background: rgba(29, 69, 104, 1);
+  }
+
+  .ultimatecard {
+    background: rgba(0, 0, 0, 1);
+  }
+}
+
+#publications {
+  background: $Grey-Bg;
+  padding: 30px 0 30px;
+
+  a {
+    align-items: center;
+  }
+
+  h1 {
+    padding: 5px 0 30px;
+  }
+
+  .publications {
+    display: grid;
+    gap: 30px;
+
+    .content {
+      background: $Basic-White;
+      border-radius: 0 0 8px 8px;
+
+      img {
+        border-radius: 8px 8px 0 0;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .text {
+        margin: 31px;
+        h4 {
+          color: $Active-Regular;
+          padding-bottom: 17px;
+        }
+
+        h6 {
+          color: $Grey-Text;
+          padding-bottom: 14px;
+          text-transform: uppercase;
+          font-size: 12px;
+          letter-spacing: 1px;
+        }
+
+        p {
+          padding-top: 15px;
+          border-top: 4px solid $Grey-Separator;
+
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+}
 
 // @media (min-width: 768px)
 

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
 * {
   margin: 0;
@@ -209,6 +208,7 @@ button.primary:active {
 }
 .mobile-burger .container .header .logo-header:after {
   content: "/";
+  font-weight: 600 !important;
   font-weight: bold;
   font-size: 27px;
   position: relative;
@@ -427,6 +427,7 @@ footer .footer .rc p {
   }
   .desktop .flex .logo-header:after {
     content: "/";
+    font-weight: 600 !important;
     font-weight: bold;
     font-size: 50px;
     position: relative;
@@ -546,7 +547,9 @@ footer .footer .lc .map p {
   margin-bottom: 0;
 }
 :root h1,
-:root h3 {
+:root h3,
+:root h4,
+:root h6 {
   margin-bottom: 0rem;
 }
 
@@ -592,7 +595,7 @@ html {
   content: "";
 }
 .gradient-bg .section-1 {
-  min-height: 100vh;
+  min-height: 89.5vh;
   padding-top: 94.5px;
   position: relative;
   padding-bottom: 60px;
@@ -693,10 +696,7 @@ html {
 .section-3 .services-content {
   display: grid;
   gap: 30px;
-  padding-bottom: 56px;
-}
-.section-3 .services-content .services-block {
-  min-width: 300px;
+  padding-bottom: 58px;
 }
 .section-3 .services-content p {
   color: rgb(255, 255, 255);
@@ -730,12 +730,152 @@ html {
   border-radius: 0 0 12px 12px;
 }
 
-.team .slider-item img {
-  display: block; /* Изображение будет блочным элементом */
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%; /* Масштабируется по ширине контейнера */
-  height: auto;
+.team {
+  padding: 30px 0 77px;
+}
+.team .team-content {
+  padding: 30px;
+  background: rgb(245, 245, 250);
+}
+.team .team-content a {
+  align-items: center;
+  padding-bottom: 5px;
+}
+.team .team-content h1 {
+  line-height: 37px;
+  padding-bottom: 30px;
+}
+.team .team-content h4 {
+  color: rgb(179, 179, 186);
+  line-height: 20.5px;
+  padding-bottom: 6px;
+}
+.team .team-content p {
+  color: rgb(179, 179, 186);
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.slick-dots li button:before {
+  font-size: 19px;
+  line-height: 27px;
+  color: rgb(36, 163, 255) !important;
+}
+
+.slick-list {
+  border-radius: 12px;
+}
+
+.slick-dots {
+  bottom: -47px;
+}
+
+.slider-item img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.brand h3 {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+}
+.brand .block {
+  width: 100%;
+  height: 120px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background: rgb(28, 66, 128);
+}
+.brand .display-none {
+  display: none;
+}
+.brand .hillel {
+  background: rgb(28, 66, 128);
+}
+.brand .wannabiz {
+  background: rgb(20, 54, 70);
+}
+.brand .tapgerine {
+  background: linear-gradient(0deg, #f48b30, #f48b30), linear-gradient(0deg, #f48b30, #f48b30);
+}
+.brand .dlook {
+  background: rgb(158, 77, 195);
+}
+.brand .orangear {
+  background: rgb(253, 147, 57);
+}
+.brand .adtelligent {
+  background: rgb(226, 226, 228);
+}
+.brand .clickky {
+  background: rgb(199, 28, 54);
+}
+.brand .eco-leasing {
+  background: rgb(220, 243, 249);
+}
+.brand .ingratek {
+  background: rgb(234, 234, 234);
+}
+.brand .city-par {
+  background: rgb(40, 34, 64);
+}
+.brand .artprint {
+  background: rgb(29, 69, 104);
+}
+.brand .ultimatecard {
+  background: rgb(0, 0, 0);
+}
+
+#publications {
+  background: rgb(245, 245, 250);
+  padding: 30px 0 30px;
+}
+#publications a {
+  align-items: center;
+}
+#publications h1 {
+  padding: 5px 0 30px;
+}
+#publications .publications {
+  display: grid;
+  gap: 30px;
+}
+#publications .publications .content {
+  background: rgb(255, 255, 255);
+  border-radius: 0 0 8px 8px;
+}
+#publications .publications .content img {
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#publications .publications .content .text {
+  margin: 31px;
+}
+#publications .publications .content .text h4 {
+  color: rgb(36, 163, 255);
+  padding-bottom: 17px;
+}
+#publications .publications .content .text h6 {
+  color: rgb(179, 179, 186);
+  padding-bottom: 14px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+#publications .publications .content .text p {
+  padding-top: 15px;
+  border-top: 4px solid rgb(230, 230, 240);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
 }
 
 @media (min-width: 768px) {

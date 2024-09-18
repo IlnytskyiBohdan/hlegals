@@ -272,6 +272,7 @@ button {
 
         &:after {
           content: "/";
+          font-weight: 600 !important;
           font-weight: bold;
           font-size: 27px;
           position: relative;
@@ -540,9 +541,11 @@ footer {
         svg {
           margin-top: 8px;
         }
+      
 
         &:after {
           content: "/";
+          font-weight: 600 !important;
           font-weight: bold;
           font-size: 50px;
           position: relative;
