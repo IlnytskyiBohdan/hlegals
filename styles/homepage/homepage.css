@@ -640,7 +640,6 @@ html {
 #v-pills-tab {
   gap: 30px;
   flex-direction: row !important;
-  padding-right: 60px;
   display: flex !important;
   flex-wrap: nowrap;
   overflow-x: scroll;
@@ -879,6 +878,9 @@ html {
 }
 
 @media (min-width: 768px) {
+  .container {
+    padding: 0 60px;
+  }
   header .desktop a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -900,6 +902,62 @@ html {
   header .desktop .flex .rc .conct p {
     margin-top: 0;
     margin-bottom: 0;
+  }
+  .gradient-bg .section-1 {
+    min-height: 100vh;
+  }
+  #section-2 .container {
+    padding: 0 60px;
+  }
+  #v-pills-tab {
+    padding: 0 0 0 60px;
+  }
+  #v-pills-home-tab,
+  #v-pills-profile-tab,
+  #v-pills-disabled-tab,
+  #v-pills-messages-tab {
+    font-size: 38px;
+    padding: 61px 0 60px;
+  }
+  #v-pills-tabContent {
+    padding-top: 65px;
+  }
+  #v-pills-tabContent h2 {
+    font-size: 30px;
+    padding-bottom: 27px;
+  }
+  #v-pills-tabContent p {
+    padding-bottom: 60px;
+  }
+  .section-3 h1 {
+    padding: 10px 0 60px;
+  }
+  .section-3 .services-content {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+  }
+  .team {
+    padding: 61px 0 77px;
+  }
+  .team .team-content h1 {
+    line-height: 46px;
+  }
+  .brand .content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .brand .content .display-none {
+    display: flex;
+  }
+  #publications h1 {
+    padding: 9px 0 30px;
+  }
+  #publications .publications {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #publications .content:nth-child(3) {
+    grid-column: span 2;
   }
 }
 @media (min-width: 1024px) {
