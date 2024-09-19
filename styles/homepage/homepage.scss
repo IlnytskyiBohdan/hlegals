@@ -70,7 +70,7 @@ html {
   }
 
   .section-1 {
-    min-height: 89.5vh;
+    min-height: 100vh;
     padding-top: 94.5px;
     position: relative;
     padding-bottom: 60px;
@@ -369,6 +369,9 @@ html {
         h4 {
           color: $Active-Regular;
           padding-bottom: 17px;
+          &:hover{
+            color: $Accent;
+          }
         }
 
         h6 {
@@ -528,7 +531,7 @@ html {
   }
 
   .gradient-bg .section-1 {
-    min-height: 56vh;
+    min-height: 100vh;
   }
 
   #display-bloc {
@@ -603,7 +606,7 @@ html {
 
 @media (min-width: 1440px) {
   .gradient-bg .section-1 {
-    min-height: 89vh;
+    min-height: 100vh;
   }
 
   #v-pills-tab {
@@ -657,7 +660,7 @@ html {
   }
 
   .gradient-bg .section-1 {
-    min-height: 93vh;
+    min-height: 100vh;
   }
 
   #v-pills-tab {
