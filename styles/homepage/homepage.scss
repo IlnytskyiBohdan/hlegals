@@ -143,6 +143,9 @@ html {
   &.active {
     color: $Accent;
   }
+  &:hover{
+    color: $Accent;
+  }
 }
 
 #v-pills-tabContent {

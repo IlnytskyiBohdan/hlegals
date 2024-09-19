@@ -667,6 +667,12 @@ html {
 #v-pills-messages-tab.active {
   color: rgb(240, 20, 90);
 }
+#v-pills-home-tab:hover,
+#v-pills-profile-tab:hover,
+#v-pills-disabled-tab:hover,
+#v-pills-messages-tab:hover {
+  color: rgb(240, 20, 90);
+}
 
 #v-pills-tabContent {
   padding-top: 27px;
