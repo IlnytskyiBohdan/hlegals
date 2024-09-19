@@ -1091,7 +1091,7 @@ html {
   .slider-item img {
     max-height: 298px;
   }
-  #publications {
-    padding: 90px 0 32px;
+  .brand .content {
+    padding-bottom: 60px;
   }
 }/*# sourceMappingURL=homepage.css.map */
