@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".slider").slick({dots:!0,infinite:!0,speed:300,cssEase:"liner",arrows:!1,slidesToShow:1,slidesToScroll:1,mobileFirst:!0})});
+$(document).ready(function(){$(".slider").slick({dots:!0,infinite:!0,speed:600,cssEase:"ease-out",arrows:!0,slidesToShow:1,slidesToScroll:1,mobileFirst:!0})});
